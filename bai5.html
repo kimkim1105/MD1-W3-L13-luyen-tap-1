@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let  txt = prompt("Nhập vào chuỗi: ");
+    const vowels = ["a","i","u","e","o"];
+    let cnt = 0;
+    for (let i of txt.toLowerCase()){
+        if (vowels.includes(i)){
+            cnt++;
+        }
+    }
+    document.write("Đoạn văn bản gồm: "+cnt+" nguyên âm")
+</script>

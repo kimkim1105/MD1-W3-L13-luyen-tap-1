@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let arr = [1,4,5,13,2,9,17,8,10,6];
+    let max = arr[0];
+    let  s = 0; a = 0;
+    let i;
+    for (i =0;i<arr.length;i++){
+        if (arr[i]>max){
+            max = arr[i]
+            console.log('ktra max',max)
+        }
+        a = (s += arr[i])/(i+1);
+        console.log("trb các số",s,i,a)
+    }
+    document.write("Sổ lớn nhất là: "+max+"<br>")
+    document.write("Trung bình các số : "+a+"<br>")
+</script>
